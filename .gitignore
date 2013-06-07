@@ -1,2 +1,8 @@
 build
 nbproject
+target
+nbactions.xml
+nb-configuration.xml
+atlassian-ide-plugin.xml
+.idea/
+*.iml
