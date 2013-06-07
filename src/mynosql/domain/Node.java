@@ -16,11 +16,15 @@ public class Node {
         this.map = new HashMap<>();
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void set(String key, String value) {
-        this.map.put(key, value);
+        map.put(key, value);
     }
 
     public String get(String key) {
-        return this.map.get(key);
+        return map.get(key);
     }
 }
