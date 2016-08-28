@@ -1,7 +1,5 @@
 package mynosql.system;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import mynosql.domain.Database;
 import mynosql.domain.Node;
 import mynosql.domain.exception.KeyNotFoundException;
@@ -82,8 +80,8 @@ public class SystemTest {
         missRate = missCount.doubleValue()/maxNumToInsert.doubleValue() * 100;
         System.out.println("Misses before adding a new node: " + missRate);
 
-        Node node = new Node("D");
-        db.addNode(node);
+        Node nodeD = new Node("D");
+        db.addNode(nodeD);
 
         missCount = 0;
         for (Integer i = 0; i < maxNumToInsert; i++) {

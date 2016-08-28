@@ -6,3 +6,6 @@ nb-configuration.xml
 atlassian-ide-plugin.xml
 .idea/
 *.iml
+.classpath
+.project
+test.rb
